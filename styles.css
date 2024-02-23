@@ -9,7 +9,7 @@ body {
 
 #clockContainer {
     position: relative;
-    /* overflow: hidden;*/
+    
 }
 
 .number {
@@ -22,14 +22,7 @@ body {
     line-height: 30px;
     background-color: #48b382;
     z-index: 2;
-}
-
-.circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #48b382;
-    position: absolute;
+    transform: translate(25%, 25%); 
 }
 
 .hand {
